@@ -1,0 +1,109 @@
+.card {
+  text-align: center;
+  /*background-color: #a2d2ff;*/
+  background:linear-gradient(#a2d2ff, #efb0c9);
+  color: #ffffff;
+  border-bottom: 10px solid rgba(200, 200, 200, 0.266);
+  border-radius: 16px;
+  /*border-color:rgb(rgba(13, 13, 13, 0.556));*/
+
+}
+
+.happy-monkey-regular {
+    font-family: "Happy Monkey", system-ui, serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, h4, p {
+  text-shadow: 0px 0px 2px #000000;
+}
+
+#bday-age {
+  background-color: #efb0c9;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 10px 0px 8px 0px;
+}
+
+.bday-date {
+  background-color: #efb0c9;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin-top: 0px;
+}
+
+#img-joe {
+  width: 200px;
+  border-radius: 50%;
+  border: 6px solid #efb0c9;
+}  
+
+.txt-happy {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.hvr-text {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.img-gift {
+  width: 300px;
+  height: 250px;
+  background-image: url(images/gift-cover.JPG);
+  background-size: 140%;
+  margin: 0px auto;
+  border: 4px solid #ffffff;
+  border-radius: 10px;
+}
+
+#gift-img-woodstock:hover {
+  background-image: url(images/joe-woodstock.webp);
+  background-size: 130%;
+}
+
+#gift-img-classic:hover {
+    background-image: url(images/classic-joe.gif);
+    background-size: 130%;
+    background-position: center;
+}
+
+#gift-img-humble:hover {
+  background-image: url(images/humble-joe.gif);
+  background-size: 130%;
+  background-position: center;
+}
+
+#gift-img-hat:hover {
+  background-image: url(images/Joe-hat-on.gif);
+  background-size: 130%;
+  background-position: center;
+}
+
+#gift-img-rip {
+  height: 200px;
+}
+
+#gift-img-rip:hover {
+  background-image: url(images/RIP-Joe-Cocker.gif);
+  background-size: 100%;
+}
+
+.footer {
+  font-style: oblique;
+  width: 300px;
+  margin: 40px auto 20px
+}
+
+a {
+  color: white;
+}
